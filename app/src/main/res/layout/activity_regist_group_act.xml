@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_base_mint"
+    android:orientation="vertical"
+    tools:context="com.lion.nocomet.screen.RegistGroup_act">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/registlogo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="135dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/registname1" />
+
+        <TextView
+            android:id="@+id/registGroup_act_text_dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:text="과이름"
+            android:textColor="#666666"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1">
+
+                <EditText
+                    android:id="@+id/registGroup_act_edit_name1"
+                    android:text="아무개"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1">
+                <EditText
+                    android:id="@+id/registGroup_act_edit_name2"
+                    android:hint="팀원의 이름을 입력하세요"
+                    android:gravity="center"
+                    android:layout_width="250sp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1">
+                <EditText
+                    android:id="@+id/registGroup_act_edit_name3"
+                    android:hint="다른 팀원의 이름을 입력하세요"
+                    android:gravity="center"
+                    android:layout_width="250sp"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape1">
+                <EditText
+                    android:id="@+id/registGroup_act_edit_line"
+                    android:hint="소개말을 적어주세요"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/registGroup_act_btn_regist"
+                android:layout_width="match_parent"
+                android:background="@drawable/shape"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:text="등록하기"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+

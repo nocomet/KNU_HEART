@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_base_red"
+    tools:context="com.lion.nocomet.screen.Login_act">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/main_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <TextView
+            android:text="KNU HEART"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/login_act_edit_snumber"
+            android:padding="6dp"
+            android:hint="학번"
+            android:text="2011105036"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="150sp"
+            android:layout_margin="15dp"
+
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/login_act_edit_id"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:hint="아이디"
+            android:text="nusung"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:layout_width="150sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/login_act_edit_pass"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:hint="패스워드"
+            android:text="*1tofhdns"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:layout_width="150sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:id="@+id/login_act_btn_loginkey"
+            android:src="@drawable/login_key"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

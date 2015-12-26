@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.lion.nocomet.screen.Heart_frag">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/cupid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+        <LinearLayout
+
+            android:background="@drawable/linear_stroke2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/Message_frag_title_recv"
+                android:textColor="@color/home_base_blue"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="4dp"
+                android:textSize="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="받은 과팅 요청"/>
+
+            <ListView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/fragment_heart_choice_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="#ffcc22"
+                android:layout_marginBottom="5dp"
+                >
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/linear_stroke"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/Message_frag_title_match"
+                android:textColor="@color/home_base_blue"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="4dp"
+                android:textSize="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="수락한 과팅"/>
+
+            <ListView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/fragment_heart_match_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="#ffcc22">
+
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
